@@ -1,0 +1,80 @@
+.welcome_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.motion_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vw;
+    height: 75vw;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #5500ff, #ff6633);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 5em;
+    font-weight: 600;
+    line-height: 90px;
+  }
+
+  .text {
+    color:rgb(139, 135, 135);
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .welcome_button {
+    margin-top: 50px;
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #e96b41;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+
+  .arrow {
+    margin-left: 10px;
+    padding-top: 5px;
+    font-size: 1em;
+  }
+
+  .bottom_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+
+  .check_circle {
+    color:#ff6633;
+    font-size: 1em;
+    margin-right: 5px;
+    padding-top: 5px;
+
+  }
